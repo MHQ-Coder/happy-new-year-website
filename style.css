@@ -22,7 +22,7 @@
     line-height: normal;
 }
 
-.para-discription{
+.para-discription {
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter';
     font-size: 18px;
@@ -339,7 +339,7 @@ button {
     color: #F00;
 }
 
-.holiday-content p{
+.holiday-content p {
     color: rgba(39, 38, 38, 0.8);
     font-family: 'Inter';
     font-size: 25px;
@@ -348,7 +348,7 @@ button {
     line-height: 36px;
 }
 
-.holiday-content .short-para{
+.holiday-content .short-para {
     color: #070211;
     font-family: 'Inter';
     font-size: 30px;
@@ -373,7 +373,7 @@ button {
 .image-container img {
     /* display: flex; */
     max-width: 465px;
-    min-width: 327px ;
+    min-width: 327px;
     display: inline-block;
 
 }
@@ -401,7 +401,7 @@ button {
 
 
 
-.portfolio-content .short-p{
+.portfolio-content .short-p {
     margin-top: 50px;
     color: rgba(4, 5, 20, 0.6);
     font-size: 20px;
@@ -432,9 +432,10 @@ button {
 
 .container .portfolio-main {
     justify-content: center;
+
 }
 
-.images-content{
+.images-content {
     display: flex;
     /* flex-wrap: wrap; */
     flex-flow: wrap;
@@ -443,19 +444,89 @@ button {
     align-items: center;
     gap: 10px;
 }
-.images-content .row{
+
+.images-content .row {
     display: flex;
     flex-direction: row;
     /* flex-flow: row; */
 }
-.images-content .row img{
+
+.images-content .row img {
     width: 338px;
     padding: 12px 15px 0px;
 }
 
-.images-content img:hover{
+.images-content img:hover {
     opacity: 0.7;
     transition: 1s;
 }
 
 /* Portfolio section end  */
+
+.subscribe-main {
+    margin: 60px auto;
+    padding: 80px 0px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-main .subscribe-content {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.subscribe-content img{
+    width: 130px;
+}
+
+.subscribe-content h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.subscribe-content p {
+    color: rgb(56, 54, 54, 0.8);
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    width: 700px;
+    line-height: 25px;
+}
+
+.subscribe-main input[type="email"] {
+    color: #070211;
+    font-family: sans-serif;
+    /* text-align: center; */
+    text-align: start;
+    font-size: 17px;
+    font-style: none;
+    font-weight: 500;
+    padding: 13px 40px;
+    width: 418px;
+    border-radius: 21px;
+    border: 0;
+    outline: #e0034d96;
+    background: #FFF;;
+    opacity: 0.9;
+}
+
+.subscribe-main input[type="email"] button {}
+
+.input-btn {
+    text-align: center;
+
+}
+
+.input-btn button {
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 3px 22px 22px 0px;
+    right: 48px;
+    position: relative;
+}
+
+/* Subscribe section End  */
