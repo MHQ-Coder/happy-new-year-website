@@ -89,7 +89,7 @@
 }
 
 .offer-content .section-title {
-    color: #F00;
+    color: rgb(189, 10, 212);
     align-items: center;
     font-family: Inter;
     line-height: 96px;
@@ -97,7 +97,7 @@
 }
 
 .offer-desc {
-    color: #F00;
+    color: rgb(70, 6, 143);
     align-items: center;
     font-family: Inter;
     font-size: 18px;
@@ -124,6 +124,7 @@
 .vector-main {
     display: flex;
     justify-content: space-between;
+    border-radius: 12px;
 
 }
 
@@ -135,37 +136,95 @@
 
 }
 
+/* #vector .vector-main{
+    border-radius: 12px;
+} */
+
 #vector .vector-content {
-    border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     color: #FFF;
 }
 
 #vector .vector-content {
-    padding: 150px 100px;
+    padding: 170px 100px;
 }
 
 .vector-main .vector-title {
     color: #FFF;
-    font-family: Merriweather;
+    font-family: 'Merriweather';
     font-size: 40px;
     font-style: normal;
     font-weight: 900;
     line-height: 60px;
-    /* 137.5% */
     letter-spacing: 7.04px;
     width: 446px;
 }
 
-.vector-content h5 {
-    margin-top: 80px;
-    padding-left: 50px;
+button {
+    background-color: rgb(214, 5, 5);
+    border: 0;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 12px 14px;
     color: #FFF;
-    /* text-align: center; */
-    font-family: Inter;
-    font-size: 17px;
-    font-style: normal;
+    font-family: sans-serif;
+    font-size: 12px;
     font-weight: 400;
-    line-height: normal;
     text-transform: uppercase;
 }
+
+.vector-main .vector-img {
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    /* align-items: center; */
+    justify-content: center;
+    padding: 100px 60px;
+
+}
+
+/* vector section end */
+.container #new-park .new-park-main {
+    justify-content: center;
+    text-align: center;
+}
+
+#new-park .new-park-main{
+    margin: 80px auto;
+    height: 482px;
+}
+#new-park .new-park-main{
+    border-radius: 12px;
+    /* background-color: rgb(240, 218, 222); */
+    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+}
+#new-park .new-park-main .new-park-content {
+    align-items: center;
+    text-align: center;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    padding-top: 80px;
+
+
+}
+.new-park-content span{
+    color: #F00;
+}
+
+#new-park button{
+    background-color: #F00;
+    border: 0;
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 12px 14px;
+    color: #FFF;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* New park section End  */
