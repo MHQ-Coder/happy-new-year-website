@@ -22,9 +22,9 @@
     line-height: normal;
 }
 
-.para-discroption {
+.para-discription {
     color: rgba(255, 255, 255, 0.80);
-    font-family: Inter;
+    font-family: 'Inter';
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -188,15 +188,17 @@ button {
     text-align: center;
 }
 
-#new-park .new-park-main{
+#new-park .new-park-main {
     margin: 80px auto;
     height: 482px;
 }
-#new-park .new-park-main{
+
+#new-park .new-park-main {
     border-radius: 12px;
     /* background-color: rgb(240, 218, 222); */
-    background:linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
+
 #new-park .new-park-main .new-park-content {
     align-items: center;
     text-align: center;
@@ -210,11 +212,12 @@ button {
 
 
 }
-.new-park-content span{
+
+.new-park-content span {
     color: #F00;
 }
 
-#new-park button{
+#new-park button {
     background-color: #F00;
     border: 0;
     border-radius: 8px;
@@ -228,3 +231,85 @@ button {
 }
 
 /* New park section End  */
+
+#coming-section .coming-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 60%; */
+    /* padding: 0 30px; */
+    /* padding: 50px; */
+    gap: 15px;
+}
+
+.coming-main .text-left h2 {
+    font-size: 36px;
+    font-style: normal;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.coming-main .text-left .coming-para {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+#coming-section .coming-main .text-left {
+    width: 400px;
+}
+.coming-main .text-left span{
+ color: rgb(0, 110, 86) ;
+}
+
+#coming-section .text-left *{
+    margin-top: 18px;
+}
+
+#coming-section .coming-main .coming-img {
+    max-width: 350px;
+    /* background-color: #F00; */
+    padding: 25px;
+    border: 10px solid #F00;
+    border-radius: 470px;
+    align-items: center;
+    text-align: center
+}
+
+#coming-section .coming-img img {
+    align-items: center;
+    vertical-align: middle;
+}
+
+#coming-section .coming-main .text-right{
+  /* text-align: center; */
+  margin-left: 50px;
+  flex-direction: column;
+
+  /* margin-top: 20px; */
+}
+.coming-main .text-right h2{
+    color: #F00;
+    font-size: 36px;
+    font-style: normal;
+    font-family: 'inter';
+    font-weight: 900;
+    line-height: normal;
+    margin-top: 78px;
+}
+.coming-main .text-right .coming-para{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+#coming-section .text-left img{
+}
