@@ -22,7 +22,7 @@
     line-height: normal;
 }
 
-.para-discription {
+.para-discription{
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter';
     font-size: 18px;
@@ -234,12 +234,12 @@ button {
 
 #coming-section .coming-main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* width: 60%; */
     /* padding: 0 30px; */
     /* padding: 50px; */
-    gap: 15px;
+    gap: 20px;
 }
 
 .coming-main .text-left h2 {
@@ -263,11 +263,12 @@ button {
 #coming-section .coming-main .text-left {
     width: 400px;
 }
-.coming-main .text-left span{
- color: rgb(0, 110, 86) ;
+
+.coming-main .text-left span {
+    color: rgb(0, 110, 86);
 }
 
-#coming-section .text-left *{
+#coming-section .text-left * {
     margin-top: 18px;
 }
 
@@ -286,14 +287,15 @@ button {
     vertical-align: middle;
 }
 
-#coming-section .coming-main .text-right{
-  /* text-align: center; */
-  margin-left: 50px;
-  flex-direction: column;
+#coming-section .coming-main .text-right {
+    /* text-align: center; */
+    margin-left: 50px;
+    flex-direction: column;
 
-  /* margin-top: 20px; */
+    /* margin-top: 20px; */
 }
-.coming-main .text-right h2{
+
+.coming-main .text-right h2 {
     color: #F00;
     font-size: 36px;
     font-style: normal;
@@ -302,7 +304,8 @@ button {
     line-height: normal;
     margin-top: 78px;
 }
-.coming-main .text-right .coming-para{
+
+.coming-main .text-right .coming-para {
     color: rgba(7, 2, 17, 0.60);
     font-family: 'Inter';
     font-size: 18px;
@@ -311,5 +314,148 @@ button {
     line-height: 28px;
     margin-bottom: 20px;
 }
-#coming-section .text-left img{
+
+/* coming soon section end  */
+
+/* holiday section Start  */
+
+.holiday-main {
+    justify-content: center;
+    margin: 0 auto;
 }
+
+.holiday-content {
+    padding: 100px 0px;
+    text-align: center;
+    /* margin: 0 auto; */
+
+}
+
+.holiday-content h2 {
+    font-size: 50px;
+}
+
+.holiday-content span {
+    color: #F00;
+}
+
+.holiday-content p{
+    color: rgba(39, 38, 38, 0.8);
+    font-family: 'Inter';
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.holiday-content .short-para{
+    color: #070211;
+    font-family: 'Inter';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 46px;
+}
+
+.holiday-content * {
+    margin-bottom: 20px;
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+    align-items: end;
+    margin-bottom: -5px;
+}
+
+.image-container img {
+    /* display: flex; */
+    max-width: 465px;
+    min-width: 327px ;
+    display: inline-block;
+
+}
+
+.box-1 {
+    position: relative;
+    top: 180px;
+    left: 150px;
+
+
+}
+
+.box-2 {
+    position: relative;
+    left: 12rem;
+}
+
+.red-img {
+    max-width: 1040px;
+    /* margin-right: 50px; */
+}
+
+/* <!-- Holiday section end --> */
+
+
+
+
+.portfolio-content .short-p{
+    margin-top: 50px;
+    color: rgba(4, 5, 20, 0.6);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 28px;
+}
+
+.portfolio-content .portfolio-title {
+    font-size: 36px;
+    font-style: normal;
+    font-family: 'Merriweather';
+    font-weight: 900;
+    line-height: 60px;
+}
+
+.portfolio-content .portfolio-para {
+    color: rgb(56, 54, 54, 0.8);
+    font-size: 15px;
+    font-style: normal;
+    font-family: 'Merriweather';
+    font-weight: 400;
+    width: 700px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+
+.container .portfolio-main {
+    justify-content: center;
+}
+
+.images-content{
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-flow: wrap;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.images-content .row{
+    display: flex;
+    flex-direction: row;
+    /* flex-flow: row; */
+}
+.images-content .row img{
+    width: 338px;
+    padding: 12px 15px 0px;
+}
+
+.images-content img:hover{
+    opacity: 0.7;
+    transition: 1s;
+}
+
+/* Portfolio section end  */
