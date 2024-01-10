@@ -22,7 +22,7 @@
     line-height: normal;
 }
 
-.para-discription {
+.para-discription{
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter';
     font-size: 18px;
@@ -261,7 +261,7 @@ button {
 }
 
 #coming-section .coming-main .text-left {
-    width: 400px;
+    width: 500px;
 }
 
 .coming-main .text-left span {
@@ -273,11 +273,11 @@ button {
 }
 
 #coming-section .coming-main .coming-img {
-    max-width: 350px;
+    max-width: 400px;
     /* background-color: #F00; */
     padding: 25px;
     border: 10px solid #F00;
-    border-radius: 470px;
+    border-radius: 600px;
     align-items: center;
     text-align: center
 }
