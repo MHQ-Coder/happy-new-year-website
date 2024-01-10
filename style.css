@@ -3,9 +3,8 @@
 * {
     padding: 0px;
     margin: 0px;
-    /* font-family: 'Merriweather', serif; */
 }
-
+  /* General section  */
 .container {
     width: 80%;
     max-width: 1320px;
@@ -14,7 +13,6 @@
 
 .section-title {
     text-align: center;
-    /* color: #FFF; */
     font-size: 70px;
     font-style: normal;
     font-family: 'Merriweather';
@@ -22,7 +20,7 @@
     line-height: normal;
 }
 
-.para-discription{
+.para-discription {
     color: rgba(255, 255, 255, 0.80);
     font-family: 'Inter';
     font-size: 18px;
@@ -30,6 +28,8 @@
     font-weight: 400;
     line-height: 20px;
 }
+ /* General section  */
+
 
 .banner {
     background-image: url('images/Banner\ Image.png');
@@ -87,6 +87,7 @@
 
 
 }
+/* <!-- offer section start --> */
 
 .offer-content .section-title {
     color: rgb(189, 10, 212);
@@ -118,9 +119,10 @@
 .offer-content img {
     width: 500px;
 }
+/* <!-- offer section End --> */
 
 
-
+/* <!-- vector section start --> */
 .vector-main {
     display: flex;
     justify-content: space-between;
@@ -135,18 +137,13 @@
     background-size: cover;
 
 }
-
-/* #vector .vector-main{
-    border-radius: 12px;
-} */
-
 #vector .vector-content {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     color: #FFF;
 }
 
 #vector .vector-content {
-    padding: 170px 100px;
+    padding: 180px 100px;
 }
 
 .vector-main .vector-title {
@@ -176,26 +173,26 @@ button {
 
 .vector-main .vector-img {
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    /* align-items: center; */
     justify-content: center;
     padding: 100px 60px;
 
 }
 
 /* vector section end */
+
+/* new-park section start */
 .container #new-park .new-park-main {
     justify-content: center;
     text-align: center;
 }
 
 #new-park .new-park-main {
-    margin: 80px auto;
+    margin: 85px auto;
     height: 482px;
 }
 
 #new-park .new-park-main {
     border-radius: 12px;
-    /* background-color: rgb(240, 218, 222); */
     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 }
 
@@ -232,13 +229,11 @@ button {
 
 /* New park section End  */
 
+/* <!-- coming-section start --> */
 #coming-section .coming-main {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* width: 60%; */
-    /* padding: 0 30px; */
-    /* padding: 50px; */
     gap: 20px;
 }
 
@@ -274,7 +269,6 @@ button {
 
 #coming-section .coming-main .coming-img {
     max-width: 400px;
-    /* background-color: #F00; */
     padding: 25px;
     border: 10px solid #F00;
     border-radius: 600px;
@@ -288,11 +282,9 @@ button {
 }
 
 #coming-section .coming-main .text-right {
-    /* text-align: center; */
     margin-left: 50px;
     flex-direction: column;
 
-    /* margin-top: 20px; */
 }
 
 .coming-main .text-right h2 {
@@ -327,7 +319,6 @@ button {
 .holiday-content {
     padding: 100px 0px;
     text-align: center;
-    /* margin: 0 auto; */
 
 }
 
@@ -371,7 +362,6 @@ button {
 }
 
 .image-container img {
-    /* display: flex; */
     max-width: 465px;
     min-width: 327px;
     display: inline-block;
@@ -393,7 +383,6 @@ button {
 
 .red-img {
     max-width: 1040px;
-    /* margin-right: 50px; */
 }
 
 /* <!-- Holiday section end --> */
@@ -409,7 +398,7 @@ button {
     font-weight: 900;
     line-height: 28px;
 }
-
+/* portfolio section start  */
 .portfolio-content .portfolio-title {
     font-size: 36px;
     font-style: normal;
@@ -437,7 +426,6 @@ button {
 
 .images-content {
     display: flex;
-    /* flex-wrap: wrap; */
     flex-flow: wrap;
     flex-flow: column;
     justify-content: center;
@@ -448,7 +436,6 @@ button {
 .images-content .row {
     display: flex;
     flex-direction: row;
-    /* flex-flow: row; */
 }
 
 .images-content .row img {
@@ -463,6 +450,7 @@ button {
 
 /* Portfolio section end  */
 
+/* Subscribe section start */
 .subscribe-main {
     margin: 60px auto;
     padding: 80px 0px;
@@ -500,7 +488,6 @@ button {
 .subscribe-main input[type="email"] {
     color: #070211;
     font-family: sans-serif;
-    /* text-align: center; */
     text-align: start;
     font-size: 17px;
     font-style: none;
@@ -515,7 +502,6 @@ button {
     opacity: 0.9;
 }
 
-.subscribe-main input[type="email"] button {}
 
 .input-btn {
     text-align: center;
@@ -533,10 +519,12 @@ button {
 
 /* Subscribe section End  */
 
+
 footer {
     background: #070211;
 }
 
+/* Footer section start */
  .footer-text{
     display: flex;
     justify-content: space-between;
@@ -565,7 +553,6 @@ footer {
 
 .footer-icon{
     display: flex;
-    /* text-align: center; */
     justify-content: center;
 }
 .footer-icon img{
@@ -580,7 +567,6 @@ footer {
     margin-bottom: 36px;
 }
 footer .footer-hr{
-    /* color: #070211; */
     border: black;
 }
 
